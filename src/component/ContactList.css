@@ -1,0 +1,84 @@
+.w3-container {
+    margin: 20px;
+  }
+  
+  .w3-table-all {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .w3-table-all th,
+  .w3-table-all td {
+    padding: 8px;
+    text-align: left;
+  }
+  
+  .w3-table-all th {
+    background-color: #f44336; /* Red color */
+    color: white;
+  }
+  
+  .w3-table-all tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  .w3-table-all tr:hover {
+    background-color: #ddd;
+  }
+  
+  .btn-edit{
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 8px 16px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+  .btn-delete{
+    background-color: #f44336;
+    border: none;
+    color: white;
+    padding: 8px 16px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+  .btn-add{
+    background-color: #008CBA;
+    border: none;
+    color: white;
+    padding: 8px 16px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+ /* Assuming your existing styles */
+
+
+/* Add the corrected styles for search-container */
+.search-container {
+  float: right;
+  margin-bottom: 10px;
+}
+
+.search-container input[type="text"] {
+  padding: 8px;
+  width: 200px; /* Adjust the width as needed */
+  height: 30px; /* Adjust the height as needed */
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-right: 80px;
+}
+
+/* Add any other styles you need */
